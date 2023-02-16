@@ -5,6 +5,13 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <ApplicationInsightsResourceId>/subscriptions/5d9929d4-e630-4e18-a43d-562bad1b49ec/resourceGroups/rg-searorschmear-dev/providers/microsoft.insights/components/appi-searorschmear-dev</ApplicationInsightsResourceId>
+    <UserSecretsId>1143d445-82dc-403e-b9af-6adc00ced57e</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.WorkerService" Version="2.15.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
+  </ItemGroup>
 
 </Project>

@@ -1,0 +1,6 @@
+{
+  "name": "Sear Or Schmear Submitter",
+  "version": "0.0.0.1",
+  "manifest_version": 3,
+  "description": "An extension to submit photos for Sear Or Schmear ML model training."
+}

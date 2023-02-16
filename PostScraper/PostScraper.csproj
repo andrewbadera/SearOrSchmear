@@ -2,8 +2,12 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <AzureFunctionsVersion>v4</AzureFunctionsVersion>
+    <ApplicationInsightsResourceId>/subscriptions/5d9929d4-e630-4e18-a43d-562bad1b49ec/resourceGroups/rg-searorschmear-dev/providers/microsoft.insights/components/appi-searorschmear-dev</ApplicationInsightsResourceId>
+    <UserSecretsId>2b5a9e7f-b0a1-455f-9bf7-9865e6123011</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.WorkerService" Version="2.15.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.1.1" />
   </ItemGroup>
   <ItemGroup>

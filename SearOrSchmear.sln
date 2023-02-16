@@ -9,6 +9,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostScraper", "PostScraper\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResultsHandler", "ResultsHandler\ResultsHandler.csproj", "{47189B91-D43D-419C-884D-4FBB70E67109}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EdgeExtension", "EdgeExtension", "{98955974-B885-457E-A00A-BE7B947941FC}"
+	ProjectSection(SolutionItems) = preProject
+		manifest.json = manifest.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "icons", "icons", "{BAC1596E-87B4-4254-80B3-52C6808C12C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearOrSchmear.Web", "SearOrSchmear.Web\SearOrSchmear.Web.csproj", "{AA74C308-AD7B-4DDA-8ED3-19E28477F051}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +36,16 @@ Global
 		{47189B91-D43D-419C-884D-4FBB70E67109}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47189B91-D43D-419C-884D-4FBB70E67109}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47189B91-D43D-419C-884D-4FBB70E67109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA74C308-AD7B-4DDA-8ED3-19E28477F051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA74C308-AD7B-4DDA-8ED3-19E28477F051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA74C308-AD7B-4DDA-8ED3-19E28477F051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA74C308-AD7B-4DDA-8ED3-19E28477F051}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BAC1596E-87B4-4254-80B3-52C6808C12C4} = {98955974-B885-457E-A00A-BE7B947941FC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {99B7B82B-F98E-4D1E-85B8-BF14AC585796}
