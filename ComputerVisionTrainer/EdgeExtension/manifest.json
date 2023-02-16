@@ -1,6 +1,0 @@
-﻿{
-  "name": "Sear Or Schmear Photo Submitter",
-  "version": "0.0.0.1",
-  "manifest_version": 3,
-  "description": "An extension to submit photos to train the Sear Or Schmear Computer Vision model."
-}
