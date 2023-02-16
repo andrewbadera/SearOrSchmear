@@ -10,11 +10,11 @@ using Newtonsoft.Json;
 
 namespace SearOrSchmear.Functions.ComputerVision
 {
-    public static class Function1
+    public class Functions
     {
-        [FunctionName("Function1")]
-        public static async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
+        [FunctionName("SubmitPhoto")]
+        public async Task<IActionResult> SubmitPhoto(
+            [HttpTrigger(AuthorizationLevel.Function, "post", Route = null)] HttpRequest req,
             ILogger log)
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
@@ -30,6 +30,13 @@ namespace SearOrSchmear.Functions.ComputerVision
                 : $"Hello, {name}. This HTTP triggered function executed successfully.";
 
             return new OkObjectResult(responseMessage);
+        }
+
+        [FunctionName("TrainComputerVision")]
+        public async Task TrainComputerVision(
+            [TimerTrigger("", RunOnStartup = true)])
+        {
+
         }
     }
 }

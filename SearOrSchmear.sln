@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearOrSchmear.Web", "SearOrSchmear.Web\SearOrSchmear.Web.csproj", "{AA74C308-AD7B-4DDA-8ED3-19E28477F051}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearOrSchmear.Functions.Reddit", "SearOrSchmear.Functions\SearOrSchmear.Functions.Reddit.csproj", "{18BD6BA7-4D22-43EF-A946-A662B8DDDD29}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearOrSchmear.Functions.Reddit", "SearOrSchmear.Functions.Reddit\SearOrSchmear.Functions.Reddit.csproj", "{18BD6BA7-4D22-43EF-A946-A662B8DDDD29}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearOrSchmear.Common", "SearOrSchmear.Common\SearOrSchmear.Common.csproj", "{78567974-AA36-4EA4-A66B-8169A261DE4C}"
 EndProject
